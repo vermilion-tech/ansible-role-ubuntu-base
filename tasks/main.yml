@@ -1,0 +1,18 @@
+---
+# tasks file for ansible-ubuntu-base
+
+- name: Upgrade Packages
+  apt:
+    upgrade: "{{ apt.upgrade }}"
+
+- name: Install APT Packages
+  apt:
+    name: "{{ apt.install_packages }}"
+
+- name: Autoremove APT Packages
+  apt:
+    autoremove: "{{  apt.autoremove }}"
+
+- name: Autoclean APT Packages
+  apt:
+    autoclean: "{{ apt.autoclean }}"

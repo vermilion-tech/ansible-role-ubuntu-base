@@ -1,0 +1,11 @@
+---
+# defaults file for ansible-ubuntu-base
+
+apt:
+  upgrade: dist
+
+  autoremove: yes
+  autoclean: yes
+
+  install_packages:
+    - htop

@@ -1,0 +1,8 @@
+---
+# Example Playbook
+
+- hosts: all
+  become: yes
+  become_user: root
+  roles:
+    - ../ansible-role-ubuntu-base
