@@ -1,5 +1,6 @@
 Ubuntu Base
 =========
+https://galaxy.ansible.com/kadenlnelson/ansible_role_ubuntu_base
 
 Installs, Updates, and Upgrades packages using `apt`. Installs `docker` and `python-pip` using `geerlingguy` roles. Installed packages can be modified using variables. See `Role Variables`.
 
@@ -26,12 +27,11 @@ See `vars/main.yml` for configurable options
 
 Example Playbook
 ----------------
-
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+`$ ansible-galaxy install kadenlnelson.ansible_role_ubuntu_base`
 
     - hosts: all
       roles:
-         - { role: vermilion-tech.ubuntu-base }
+         - { role: kadenlnelson.ansible_role_ubuntu_base }
 
 License
 -------

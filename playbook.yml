@@ -5,4 +5,4 @@
   become: yes
   become_user: root
   roles:
-    - ../ansible-role-ubuntu-base
+    - kadenlnelson.ansible_role_ubuntu_base
