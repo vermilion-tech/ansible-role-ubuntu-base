@@ -25,6 +25,12 @@ See `vars/main.yml` for configurable options
 - geerlingguy.pip
   - installs `docker` and `docker-compose by default`
 
+Example Adhoc
+-------------
+```bash
+$ ansible-role kadenlnelson.ansible_role_ubuntu_base -i server.vermilion.tech, --hosts server.vermilion.tech --become --sudo
+```
+
 Example Playbook
 ----------------
 `$ ansible-galaxy install kadenlnelson.ansible_role_ubuntu_base`

@@ -9,3 +9,4 @@ apt:
 
   install_packages:
     - htop
+    - python3-pip
