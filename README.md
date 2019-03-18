@@ -1,6 +1,6 @@
 Ubuntu Base
 =========
-https://galaxy.ansible.com/kadenlnelson/ansible_role_ubuntu_base
+https://galaxy.ansible.com/vermilion_tech/ansible_role_ubuntu_base
 
 Installs, Updates, and Upgrades packages using `apt`. Installs `docker` and `python-pip` using `geerlingguy` roles. Installed packages can be modified using variables. See `Role Variables`.
 
@@ -28,16 +28,16 @@ See `vars/main.yml` for configurable options
 Example Adhoc
 -------------
 ```bash
-$ ansible-role kadenlnelson.ansible_role_ubuntu_base -i server.vermilion.tech, --hosts server.vermilion.tech --become --sudo
+$ ansible-role vermilion_tech.ansible_role_ubuntu_base -i server.vermilion.tech, --hosts server.vermilion.tech --become --sudo
 ```
 
 Example Playbook
 ----------------
-`$ ansible-galaxy install kadenlnelson.ansible_role_ubuntu_base`
+`$ ansible-galaxy install vermilion_tech.ansible_role_ubuntu_base`
 
     - hosts: all
       roles:
-         - { role: kadenlnelson.ansible_role_ubuntu_base }
+         - { role: vermilion_tech.ansible_role_ubuntu_base }
 
 License
 -------
