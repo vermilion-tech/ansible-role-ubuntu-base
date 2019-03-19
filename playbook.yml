@@ -1,8 +1,8 @@
 ---
-# Example Playbook
+# Ubuntu Base Playbook use for testing locally
 
 - hosts: all
   become: yes
   become_user: root
   roles:
-    - vermilion_tech.ansible_role_ubuntu_base
+    - ../ansible-role-ubuntu-base
