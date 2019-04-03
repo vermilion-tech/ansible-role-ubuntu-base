@@ -7,7 +7,7 @@ pipeline {
       script: "git --no-pager log --format='medium' -1 ${GIT_COMMIT}"
     )}"""
 
-    GALAXY_REPO = "vermilion-tech ansible-role-docker4wordpress"
+    GALAXY_REPO = "vermilion-tech ansible-role-ubuntu-base"
   }
 
   stages {
