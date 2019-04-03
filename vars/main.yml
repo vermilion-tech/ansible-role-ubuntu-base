@@ -6,4 +6,4 @@ docker_install_compose: false
 # geerlingguy.pip
 pip_install_packages:
   - docker
-  - docker-compose==1.24.0rc1
+  - docker-compose==1.24.0
